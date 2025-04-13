@@ -1,4 +1,5 @@
-<h1 style="color : Black ; font-size: 40px; max-width: 55%"> UI / UX Design Specialist & Student Software Engineer - Anthony Welcher    </h1>
+<h1 style="color : Black ; font-size: 40px; max-width: 55%"> UI / UX Design Specialist & Student Software Engineer - Anthony Welcher</h1>
+
 
 
 
@@ -8,8 +9,8 @@
 
 <ul style ="display: inline-flex; ; padding: 0px; margin: auto"> 
 
-<button name ="LinkedIn" onclick="https://www.linkedin.com/in/anthony-welcher-b39943345/" style="width: 100px ; height: 50px ; border-radius: 10px; background-color: yellow;  border-color: purple"> 
-<p style="color: black ; font-size: 20px"> LinkedIn </p>
+<button > 
+<p name ="LinkedIn" onclick="https://www.linkedin.com/in/anthony-welcher-b39943345/style="color: black ; font-size: 20px"> LinkedIn </p>
 </button>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
