@@ -26,7 +26,7 @@
 
 
 <button>
-<p style= "color: black ; font-size: 20px"> [Coursera] <https://www.coursera.org/account-profile></p>
+<p style= "color: black ; font-size: 20px"> [Coursera] (https://www.coursera.org/account-profile) </p>
 </button>
 
 
