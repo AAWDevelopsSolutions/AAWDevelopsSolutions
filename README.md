@@ -10,14 +10,14 @@
 <ul style ="display: inline-flex; ; padding: 0px; margin: auto"> 
 
 <button > 
-<p style= "color: black ; font-size: 20px"> LinkedIn </p>
+<p style= "color: black ; font-size: 20px"> [LinkedIn](https://www.linkedin.com/in/anthony-welcher-b39943345/) </p>
 </button>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 <button>
-<p style = "color: black ; font-size: 20px"> LinkedIn </p>
+<p style = "color: black ; font-size: 20px"> [Behance](https://www.behance.net/anthonywelcher) </p>
 </button>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -34,7 +34,7 @@
 
 
 <button>
-<p style= "color: black ; font-size: 20px"> [Upwork] 
+<p style= "color: black ; font-size: 20px"> [Upwork](https://www.upwork.com/freelancers/~0161bdbb2be3c8bbf0) 
 </button>
 
 
