@@ -10,32 +10,32 @@
 <ul style ="display: inline-flex; ; padding: 0px; margin: auto"> 
 
 <button > 
-<p name ="LinkedIn" onclick="https://www.linkedin.com/in/anthony-welcher-b39943345/style="color: black ; font-size: 20px"> LinkedIn </p>
+<p style= "color: black ; font-size: 20px"> LinkedIn </p>
 </button>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-<button name ="Behance" onclick="https://www.behance.net/anthonywelcher" style="width: 100px ; height: 50px ; border-radius: 10px; background-color: yellow;  border-color: purple"> 
-<p style="color: black ; font-size: 20px"> Behance </p>
+<button>
+<p style = "color: black ; font-size: 20px"> LinkedIn </p>
 </button>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
-<button name ="Coursera" onclick="https://www.coursera.org/account-profile" style="width: 100px ; height: 50px ; border-radius: 10px; background-color: yellow;  border-color: purple"> 
-<p style="color: black ; font-size: 20px"> Coursera </p>
+
+<button>
+<p style= "color: black ; font-size: 20px"> [Coursera] <https://www.coursera.org/account-profile></p>
 </button>
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 
-<button name ="Upwork" onclick="https://www.upwork.com/freelancers/~0161bdbb2be3c8bbf0" style="width: 100px ; height: 50px ; border-radius: 10px; background-color: yellow;  border-color: purple"> 
-<p style="color: black ; font-size: 20px"> Upwork </p>
+<button>
+<p style= "color: black ; font-size: 20px"> [Upwork] 
 </button>
-</ul>
 
 
 
