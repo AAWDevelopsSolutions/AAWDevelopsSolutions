@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    background-color: #f9fbff;
+    color: #151013;
+    font-family: verdana;
+    
+}
+/* Style for Header */
+#nav-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #f9fbff;
+    color: #151013;
+    border: solid 2px  #fd8c73;
+    border-radius: 10px;
+}
+
+h1 { font-size: 22px;
+     margin: 0px;
+     padding-left: 10px;
+     max-width: 50%;
+     
+}
+.drop-down {
+    width: 50%;
+}
+#nav-menu {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.toggle-btn {
+    padding: 10px;
+    border: solid 1px #fd8c73;
+    border-radius: 10px;
+    background-color: #8a2d50;
+    color: #f9fbff;
+    cursor: pointer;
+}
+.toggle-btn:hover {
+  background-color: #39ff14;
+  border: solid 1px #8a2d50;
+  color: #151013;
+}
+
+.contact {
+    display: inline-block;
+}
+
+.nav-link {
+    margin: auto;
+    
+}
+
+#bg-img {
+    position: static;
+}
+
+/* Style for footer */
+
+#footer {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: #8a2d50;
+    border: solid 2px #fd8c73;
+    border-radius: 5px;
+}
+  
+h2 {
+    padding-left: 10px;
+    align-self: center;
+    color: #f9fbff;
+    max-width: 25%;
+    font-size: 20px;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+   
+}
+
+.contact-txt { 
+    padding-left: 20px;
+    margin-right: 20px;
+    color: #f9fbff;
+    font-size: 14px;
+    width: auto;
+    height: auto;
+}
+
+/* Start Styling for About Anthony Section */
+
+.grid-container {
+  max-width: 100%;
+  margin:  1rem;
+  padding: 1rem;
+  border: solid 1px #fd8c73;
+  border-radius: 10px;
+  background-color: #151013;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas: 
+  "intro intro intro"
+  "paragraph-I figure-I figure-I"
+  "paragraph-II paragraph-II paragraph-II"
+  "figure-II paragraph-III paragraph-III"
+  "figure-II paragraph-IV paragraph-IV"
+  "paragraph-V paragraph-V paragraph-V"
+  "paragraph-VI figure-III figure-III"
+  "paragraph-VII paragraph-VII paragraph-VII"
+  "paragraph-VIII paragraph-VIII paragraph-VIII"
+  "closer closer figure-final";
+
+}
+
+.grid-item {
+  background-color: #151013;
+  color: #f9fbff;
+  border: solid 1px transparent;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px;
+}
+
+.grid-item .caption {
+  font-size: 1em;
+  margin-top: 10px;
+  background-color: #8a2d50;
+  color: #fd8c73;
+  border: solid 1px transparent;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.intro {
+  grid-area: intro;
+  font-size: 1.75em;
+  font-weight: bold;
+  text-align: left;
+  margin-left: 3rem;
+  margin-top: .5rem;
+  padding: .5rem;
+  background-color: #fd8c73;
+  color: #8a2d50;
+  width: fit-content;
+  height: fit-content;
+  border: solid 2px #8a2d50;
+  border-radius: 5px;
+  
+  }
+.figure-I {
+  grid-area: figure-I;
+  text-align: center;
+}
+.paragraph-I {
+  grid-area: paragraph-I;
+  font-size: 1.25em;
+  place-content: center;
+  padding: 20px;
+  
+}
+.paragraph-II {
+  grid-area: paragraph-II;
+  font-size: 1.25em; 
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+.figure-II {
+  grid-area: figure-II;
+  text-align: center;
+}
+.paragraph-III {
+  grid-area: paragraph-III;
+  font-size: 1.25em;
+  text-align: right;
+  place-content: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+.paragraph-IV {
+  grid-area: paragraph-IV;
+  font-size: 1.25em;
+  text-align: right;
+  place-content: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+.paragraph-V {
+  grid-area: paragraph-V;
+  font-size: 1.25em;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+.figure-III {
+  grid-area: figure-III;
+  text-align: center;
+}
+.paragraph-VI {
+  grid-area: paragraph-VI;
+  font-size: 1.25em;
+  text-align: left;
+  place-content: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+.paragraph-VII {
+  grid-area: paragraph-VII;
+  font-size: 1.25em;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+.paragraph-VIII {
+  grid-area: paragraph-VIII;
+  font-size: 1.25em;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+.closer {
+  grid-area: closer;
+  font-size: 1.25em;
+  text-align: left;
+  margin: 20px auto;
+  place-content: center;
+  padding: 20px;
+}
+.figure-final {
+  grid-area: figure-final;
+  text-align: center;
+}
+
+/* End Styling for About Anthony Section */
+
+
+/* Start Styling for Skills Section */ 
+
+#skillsSection {
+  background-color: #151013;
+  margin:  1rem;
+  padding:  1rem;
+  border-radius: 10px;
+  border-color: solid 1px #fd8c73;
+}
+
+#skills {
+  font-weight: bold;
+  margin-top: 2rem;
+  border: 1px solid #151013;
+  color: #8a2d50;
+  border-radius: 5px;
+  background-color: #f9fbff;
+  padding: 5px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+#flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  top: 1rem;
+  max-width: 100%;
+  margin-bottom: 3rem;
+  padding: 0 1rem;
+  background-color: #fd8c73;
+  border: solid 2px #8a2d50;
+  border-radius: 8px;
+  
+}
+
+
+.list-skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3.5rem;
+     
+}
+
+.flex-skill {
+  list-style-type: none;
+  flex:  0 0 25%;
+  justify-content: center;
+  padding: 25px; 
+ }
+
+
+
+h2 {
+  color: #f9fbff;
+  font-size: 1.5em;
+  font-weight: large;
+  text-decoration-line: underline;
+}
+#classroom {
+  margin: 2rem auto;
+  border: none;
+  background-image: url(classroom.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 1.5rem;
+  min-height: 800px;
+  color: #8a2d50; 
+  border: 1px solid #8a2d50;
+  
+}
+
+.classroom-content {
+  background-color: rgba (0,0,0,0.5);
+  padding: 1.25rem;
+}
+.skill-exp {
+  list-style-type: upper-roman;
+  padding: 50px;
+}
+
+li {
+  margin-bottom: 20px;
+  font-size: 1.25em;
+}
+.scratch-txt {
+  font-style: italic;
+  text-decoration-line: line-through;
+  color: red;
+}
+
+/* End Styling for Skills Section */
+
+
+
+/* Start Styling for Projects Section */
+
+#projectsSection{
+  width: 100%;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  background-color: #f9fbff;
+}
+
+#project-container {
+  background-color: #151013;
+  border: solid 2px transparent;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: auto;
+  
+}
+
+#projects {
+  display: inline-block;
+  background-color: #f9fbff;
+  color: #8a2d50;
+  padding: 5px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  left: 50%; 
+  transform: translateX(-50%);
+  border: solid 2px #fd8c73;
+  border-radius: 5px;
+}
+
+.project-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2rem auto;
+  text-align: right;
+  vertical-align: center;
+  
+}
+
+.project-row:nth-child(even) {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  text-align: justify;
+  
+ 
+}
+.project-img img{
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  object-fit: cover;
+  
+}
+.project-title {
+  color: #fd8c73;
+  font-size: 1.25em;
+  margin-bottom: 10px;
+}
+.flex-project {
+  flex: 1 1 45%;
+  font-size: 1.1em;
+  background-color: #8a2d50;
+  color: #f9fbff;
+  border: solid 1px #fd8c73;
+  border-radius: 10px;
+  margin: 25px;
+  padding: 20px;
+  vertical-align: middle;
+}
+
+a {
+  color: inherit;
+}
+a:hover {
+  color:#39ff14;
+}
+  color: 
+}
+.book-title {
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  #project-container {
+    width: 90%;
+  }
+  .project-row {
+    flex-direction: column;
+    display: inline-block;
+    align-items: center;
+    max-width: 100%;
+    text-align: center;
+  }
+  .flex-project {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .project-img {
+    height: 200px;
+    object-fit: contain;
+  }
+}
+/* End Styling for Projects Section */
+
+/*Start Styling for Recommendations Section */
+#recommendationsSection{
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: transparent;
+}
+
+#recommendation-container {
+  background-color: transparent;
+  border: solid 2px transparent;
+  border-radius: 20px;
+  padding: 20px;
+  margin: auto;
+  justify-content: space-around;
+}
+
+#recommendations {
+  display: inline-block;
+  margin: 1rem auto;
+  padding: 5px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: transparent;
+  color: transparent;
+  border: solid transparent 1px;
+  border-radius: 5px;
+}
+
+.flex-recommendations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  
+  
+}
+.flex-recommendations img {
+  width: 100%;
+  max-width: 500px; 
+  height: auto;
+}
+.flex-recommendations p {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fd8c73;
+  color: #151013;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+
+/*End Styling for Recommendations Section */
