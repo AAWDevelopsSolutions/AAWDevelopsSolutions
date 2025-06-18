@@ -74,8 +74,8 @@ h1 { font-size: 22px;
 }
 
 #bg-img {
-   width: 100vw;
-   height: calc(75vw - 25rem);
+   width: 100%;
+   height: calc(75% - 25rem);
    object-fit: cover;
    margin: auto;
 }
@@ -83,7 +83,7 @@ h1 { font-size: 22px;
 @media screen and (min-width: 500px) and (max-width:1200px)
 {
  .landing-container {
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: flex;
   align-items: center;
