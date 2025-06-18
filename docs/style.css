@@ -19,7 +19,7 @@ body {
     padding: 10px;
     margin: 10px auto;
     background-color: #f9fbff;
-    color: #151013;
+    color: #8a2d50;
     border: solid 2px  #fd8c73;
     border-radius: 10px;
 }
@@ -78,25 +78,6 @@ h1 { font-size: 22px;
    height: calc(75vw - 25rem);
    object-fit: cover;
    margin: auto;
-}
-
-@media screen and (min-width: 500px) and (max-width:1200px)
-{
- .landing-container {
-  width: 100vw;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-#bg-img {
-   width: 100vw;
-   height: calc(auto - 10rem);
-   object-fit: cover;
-   margin: auto;
-}
 }
 /* Style for footer */
 
