@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    iframe#doc{width: 100%; height: 100vh; border: 0}
     }
 
 body {
     background-color: #f9fbff;
     color: #151013;
     font-family: verdana;
-    
+        
 }
 /* Style for Header */
 #nav-container {
@@ -528,3 +529,4 @@ a:hover {
 
 
 /*End Styling for Recommendations Section */
+
